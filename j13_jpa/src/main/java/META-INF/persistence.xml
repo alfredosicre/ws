@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<persistence xmlns="https://jakarta.ee/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence
+                                 https://jakarta.ee/xml/ns/persistence/persistence_3_0.xsd"
+             version="3.0">
+
+    <persistence-unit name="cursoJPA" transaction-type="RESOURCE_LOCAL">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+
+		<class>com.cursogetafe.jpa.ejemplo01mapeosimple.Persona</class>
+		<class>com.cursogetafe.jpa.ejemplo02columnyenum.Persona02</class>
+		<class>com.cursogetafe.jpa.ejemplo03insertables.Persona03</class>
+		<class>com.cursogetafe.jpa.ejemplo04pkcompuesto.Persona04</class>
+		<class>com.cursogetafe.jpa.ejemplo04pkcompuesto.dni</class>
+		<class>com.cursogetafe.jpa.ejemplo04pkcompuesto.Persona04B</class>
+		<class>com.cursogetafe.jpa.ejemplo04pkcompuesto.dniB</class>
+		<class>com.cursogetafe.jpa.ejemplo05tipoacceso.Persona05</class>
+		<class>com.cursogetafe.jpa.ejemplo06herenciajoined.Circulo</class>
+		<class>com.cursogetafe.jpa.ejemplo06herenciajoined.Rectangulo</class>
+		<class>com.cursogetafe.jpa.ejemplo06herenciajoined.Figura</class>
+		<class>com.cursogetafe.jpa.ejemplo07herenciasingletable.Circulo02</class>
+		<class>com.cursogetafe.jpa.ejemplo07herenciasingletable.Rectangulo02</class>
+		<class>com.cursogetafe.jpa.ejemplo07herenciasingletable.Figura02</class>
+		<class>com.cursogetafe.jpa.ejemplo09unoauno.Contacto</class>
+		<class>com.cursogetafe.jpa.ejemplo09unoauno.Domicilio</class>
+		<class>com.cursogetafe.jpa.ejemplo11muchosauno.Partido</class>
+		<class>com.cursogetafe.jpa.ejemplo11muchosauno.Campo</class>
+		<class>com.cursogetafe.jpa.ejemplo11muchosauno.Partido2</class>
+		<class>com.cursogetafe.jpa.ejemplo11muchosauno.Campo2</class>
+		<class>com.cursogetafe.jpa.ejemplo12muchosamuchos.Equipo</class>
+		<class>com.cursogetafe.jpa.ejemplo12muchosamuchos.Jugador</class>
+		
+        <properties>
+            <!-- JDBC -->
+            <property name="jakarta.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+            <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://localhost:3366/12_curso_jpa"/>
+            <property name="jakarta.persistence.jdbc.user" value="root"/>
+            <property name="jakarta.persistence.jdbc.password" value="root"/>
+
+            <!-- Hibernate -->
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/>
+            <!-- <property name="hibernate.hbm2ddl.auto" value="none"/>   create, update, validate, none -->
+            <property name="hibernate.show_sql" value="true"/>
+            <property name="hibernate.format_sql" value="true"/>
+
+        </properties>
+    </persistence-unit>
+</persistence>
