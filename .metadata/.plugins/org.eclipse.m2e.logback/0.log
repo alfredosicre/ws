@@ -3012,3 +3012,5 @@
 2025-09-02 09:58:22,306 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mananas\Desktop\ws\w01_pruebaweb\src\test\resources
 2025-09-02 09:58:22,306 [Worker-21: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of w01_pruebaweb
 2025-09-02 09:58:22,306 [Worker-21: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for w01_pruebaweb
+2025-09-02 10:01:25,552 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mananas\Desktop\ws\w02_otraprueba\src\main\resources
+2025-09-02 10:01:25,554 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mananas\Desktop\ws\w02_otraprueba\src\test\resources
