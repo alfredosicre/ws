@@ -63,3 +63,25 @@
 0:00:01 Tab1 StartNav3 #typed
 0:00:01 Tab1 FinishNav3
 0:00:01 Tab1 PageLoad
+0:05:36 Tab1 StartNav4 #typed
+0:05:36 Tab1 FinishNav4
+0:05:36 Tab1 PageLoad
+0:05:36 Tab1 StartNav5 #typed
+0:05:36 Tab1 FinishNav5
+0:05:36 Tab1 PageLoad
+0:52:35 Tab1 StartNav6 #typed
+0:52:35 Tab1 FinishNav6
+0:52:35 Tab1 PageLoad
+0:52:36 Tab1 StartNav7 #typed
+0:52:36 Tab1 FinishNav7
+0:52:36 Tab1 PageLoad
+0:54:46 Tab1 StartNav8 #typed
+0:54:46 Tab1 FinishNav8
+0:54:46 Tab1 PageLoad
+0:54:50 Tab1 StartNav9 #typed
+0:54:50 Tab1 FinishNav9
+0:54:50 Tab1 PageLoad
+0:59:02 Tab1 StartNav10 #typed
+0:59:02 Tab1 FinishNav10
+0:59:02 Tab1 PageLoad
+0:59:05 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
