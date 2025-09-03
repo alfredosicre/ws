@@ -1,4 +1,4 @@
-package tienda.config;
+package config;
 
 import jakarta.persistence.EntityManagerFactory;
 

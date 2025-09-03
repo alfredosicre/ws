@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.io.ObjectInputFilter.Config"/>
-    <fullyQualifiedTypeName name="com.cursogetafe.ejerciciojpa.config.Config"/>
-    <fullyQualifiedTypeName name="com.cursogetafe.ejerciciojpa.modelo.Cliente"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.NoResultException"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Id"/>
     <fullyQualifiedTypeName name="jakarta.persistence.TableGenerator"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Entity"/>
@@ -60,4 +56,8 @@
     <fullyQualifiedTypeName name="java.lang.Runtime"/>
     <fullyQualifiedTypeName name="java.util.concurrent.CompletableFuture"/>
     <fullyQualifiedTypeName name="javax.management.RuntimeErrorException"/>
+    <fullyQualifiedTypeName name="jakarta.servlet.http.HttpServlet"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.OneToMany"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.ManyToOne"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
 </qualifiedTypeNameHistroy>
