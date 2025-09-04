@@ -2,11 +2,13 @@ package persistencia;
 
 import java.util.Set;
 
+import config.Config;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.EntityManagerFactory;
 import modelo.Fabricante;
 
-
 public interface FabricanteDao {
-	
+		
 	/**
 	 * Agrega un nuevo fabricante a la BBDD
 	 * @param fabricante a agregar

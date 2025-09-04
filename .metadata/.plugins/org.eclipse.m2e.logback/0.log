@@ -3522,3 +3522,101 @@
 2025-09-03 10:51:41,500 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mananas\Desktop\ws\w03_tienda\src\test\resources
 2025-09-03 10:52:44,965 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2025-09-03 10:52:44,968 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mananas\Desktop\ws\w03_tienda\src\test\resources
+2025-09-03 10:58:01,999 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-03 10:58:02,043 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mananas\Desktop\ws\w03_tienda\src\test\resources
+2025-09-03 13:00:08,304 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-09-04 09:19:48,333 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-09-04 09:25:26,312 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mananas\Desktop\ws\j13_jpa\src\main\resources
+2025-09-04 09:25:26,552 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Recompiling the module because of [1madded or removed source files[m.
+2025-09-04 09:25:26,570 [Worker-23: Building] INFO  o.c.p.compiler.javac.JavacCompiler - Compiling 39 source files with javac [debug target 17] to target\classes
+2025-09-04 09:25:27,459 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - system modules path not set in conjunction with -source 17
+2025-09-04 09:25:27,463 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mananas\Desktop\ws\j13_jpa\src\test\resources
+2025-09-04 09:25:27,487 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Recompiling the module because of [1madded or removed source files[m.
+2025-09-04 09:25:27,488 [Worker-23: Building] INFO  o.c.p.compiler.javac.JavacCompiler - Compiling 1 source file with javac [debug target 17] to target\test-classes
+2025-09-04 09:25:27,638 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - system modules path not set in conjunction with -source 17
+2025-09-04 09:25:27,998 [Worker-23: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/shared/file-management/3.1.0/file-management-3.1.0.pom
+2025-09-04 09:25:28,006 [Worker-23: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/shared/file-management/3.1.0/file-management-3.1.0.pom
+2025-09-04 09:25:28,023 [Worker-23: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/4.0.1/plexus-utils-4.0.1.pom
+2025-09-04 09:25:28,028 [Worker-23: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/4.0.1/plexus-utils-4.0.1.pom
+2025-09-04 09:25:28,037 [Worker-23: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-io/commons-io/2.16.1/commons-io-2.16.1.pom
+2025-09-04 09:25:28,044 [Worker-23: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-io/commons-io/2.16.1/commons-io-2.16.1.pom
+2025-09-04 09:25:28,059 [Worker-23: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/3.6.2/maven-archiver-3.6.2.pom
+2025-09-04 09:25:28,061 [Worker-23: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/3.6.2/maven-archiver-3.6.2.pom
+2025-09-04 09:25:28,076 [Worker-23: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.9.2/plexus-archiver-4.9.2.pom
+2025-09-04 09:25:28,079 [Worker-23: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.9.2/plexus-archiver-4.9.2.pom
+2025-09-04 09:25:28,091 [Worker-23: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/3.4.2/plexus-io-3.4.2.pom
+2025-09-04 09:25:28,095 [Worker-23: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/3.4.2/plexus-io-3.4.2.pom
+2025-09-04 09:25:28,111 [Worker-23: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.26.1/commons-compress-1.26.1.pom
+2025-09-04 09:25:28,115 [Worker-23: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.26.1/commons-compress-1.26.1.pom
+2025-09-04 09:25:28,125 [Worker-23: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/66/commons-parent-66.pom
+2025-09-04 09:25:28,132 [Worker-23: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/66/commons-parent-66.pom
+2025-09-04 09:25:28,144 [Worker-23: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.16.1/commons-codec-1.16.1.pom
+2025-09-04 09:25:28,147 [Worker-23: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.16.1/commons-codec-1.16.1.pom
+2025-09-04 09:25:28,160 [Worker-23: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.pom
+2025-09-04 09:25:28,164 [Worker-23: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.pom
+2025-09-04 09:25:28,175 [Worker-23: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/64/commons-parent-64.pom
+2025-09-04 09:25:28,180 [Worker-23: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/64/commons-parent-64.pom
+2025-09-04 09:25:28,198 [Worker-23: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/luben/zstd-jni/1.5.5-11/zstd-jni-1.5.5-11.pom
+2025-09-04 09:25:28,200 [Worker-23: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/luben/zstd-jni/1.5.5-11/zstd-jni-1.5.5-11.pom
+2025-09-04 09:25:28,221 [Worker-23: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/shared/file-management/3.1.0/file-management-3.1.0.jar
+2025-09-04 09:25:28,224 [Worker-23: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/shared/file-management/3.1.0/file-management-3.1.0.jar
+2025-09-04 09:25:28,232 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/4.0.1/plexus-utils-4.0.1.jar
+2025-09-04 09:25:28,240 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/4.0.1/plexus-utils-4.0.1.jar
+2025-09-04 09:25:28,242 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/3.6.2/maven-archiver-3.6.2.jar
+2025-09-04 09:25:28,243 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/3.4.2/plexus-io-3.4.2.jar
+2025-09-04 09:25:28,244 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-io/commons-io/2.16.1/commons-io-2.16.1.jar
+2025-09-04 09:25:28,246 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/3.6.2/maven-archiver-3.6.2.jar
+2025-09-04 09:25:28,246 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.9.2/plexus-archiver-4.9.2.jar
+2025-09-04 09:25:28,247 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.26.1/commons-compress-1.26.1.jar
+2025-09-04 09:25:28,251 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/3.4.2/plexus-io-3.4.2.jar
+2025-09-04 09:25:28,255 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar
+2025-09-04 09:25:28,257 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.16.1/commons-codec-1.16.1.jar
+2025-09-04 09:25:28,266 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.9.2/plexus-archiver-4.9.2.jar
+2025-09-04 09:25:28,278 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.16.1/commons-codec-1.16.1.jar
+2025-09-04 09:25:28,278 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.26.1/commons-compress-1.26.1.jar
+2025-09-04 09:25:28,278 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-io/commons-io/2.16.1/commons-io-2.16.1.jar
+2025-09-04 09:25:28,279 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/luben/zstd-jni/1.5.5-11/zstd-jni-1.5.5-11.jar
+2025-09-04 09:25:28,285 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar
+2025-09-04 09:25:28,359 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/luben/zstd-jni/1.5.5-11/zstd-jni-1.5.5-11.jar
+2025-09-04 09:25:28,828 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mananas\Desktop\ws\j13_jpa\src\main\resources
+2025-09-04 09:25:28,854 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Nothing to compile - all classes are up to date.
+2025-09-04 09:25:28,857 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mananas\Desktop\ws\j13_jpa\src\test\resources
+2025-09-04 09:25:28,867 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Nothing to compile - all classes are up to date.
+2025-09-04 09:25:29,245 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mananas\Desktop\ws\j14_ejerciciojpa\src\main\resources
+2025-09-04 09:25:29,468 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Recompiling the module because of [1madded or removed source files[m.
+2025-09-04 09:25:29,475 [Worker-23: Building] INFO  o.c.p.compiler.javac.JavacCompiler - Compiling 20 source files with javac [debug target 17] to target\classes
+2025-09-04 09:25:29,706 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - system modules path not set in conjunction with -source 17
+2025-09-04 09:25:29,709 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mananas\Desktop\ws\j14_ejerciciojpa\src\test\resources
+2025-09-04 09:25:29,730 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Recompiling the module because of [1madded or removed source files[m.
+2025-09-04 09:25:29,731 [Worker-23: Building] INFO  o.c.p.compiler.javac.JavacCompiler - Compiling 1 source file with javac [debug target 17] to target\test-classes
+2025-09-04 09:25:29,825 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - system modules path not set in conjunction with -source 17
+2025-09-04 09:25:30,404 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-04 09:25:30,631 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Recompiling the module because of [1madded or removed source files[m.
+2025-09-04 09:25:30,645 [Worker-23: Building] INFO  o.c.p.compiler.javac.JavacCompiler - Compiling 21 source files with javac [debug target 17] to target\classes
+2025-09-04 09:25:31,050 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - system modules path not set in conjunction with -source 17
+2025-09-04 09:25:31,051 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - /C:/Users/Mananas/Desktop/ws/j16_agendaV2/src/main/java/com/cursogetafe/agenda/negocio/AgendaImpl.java: C:\Users\Mananas\Desktop\ws\j16_agendaV2\src\main\java\com\cursogetafe\agenda\negocio\AgendaImpl.java uses or overrides a deprecated API.
+2025-09-04 09:25:31,051 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - /C:/Users/Mananas/Desktop/ws/j16_agendaV2/src/main/java/com/cursogetafe/agenda/negocio/AgendaImpl.java: Recompile with -Xlint:deprecation for details.
+2025-09-04 09:25:31,051 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - /C:/Users/Mananas/Desktop/ws/j16_agendaV2/src/main/java/com/cursogetafe/agenda/persistencia/ContactoDaoMemSerial.java: C:\Users\Mananas\Desktop\ws\j16_agendaV2\src\main\java\com\cursogetafe\agenda\persistencia\ContactoDaoMemSerial.java uses unchecked or unsafe operations.
+2025-09-04 09:25:31,051 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - /C:/Users/Mananas/Desktop/ws/j16_agendaV2/src/main/java/com/cursogetafe/agenda/persistencia/ContactoDaoMemSerial.java: Recompile with -Xlint:unchecked for details.
+2025-09-04 09:25:31,054 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\test\resources to target\test-classes
+2025-09-04 09:25:31,081 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Recompiling the module because of [1madded or removed source files[m.
+2025-09-04 09:25:31,083 [Worker-23: Building] INFO  o.c.p.compiler.javac.JavacCompiler - Compiling 1 source file with javac [debug target 17] to target\test-classes
+2025-09-04 09:25:31,235 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - system modules path not set in conjunction with -source 17
+2025-09-04 09:25:31,624 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mananas\Desktop\ws\w01_pruebaweb\src\main\resources
+2025-09-04 09:25:31,628 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mananas\Desktop\ws\w01_pruebaweb\src\test\resources
+2025-09-04 09:25:32,226 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mananas\Desktop\ws\j14_ejerciciojpa\src\main\resources
+2025-09-04 09:25:32,234 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Nothing to compile - all classes are up to date.
+2025-09-04 09:25:32,236 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mananas\Desktop\ws\j14_ejerciciojpa\src\test\resources
+2025-09-04 09:25:32,242 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Nothing to compile - all classes are up to date.
+2025-09-04 09:25:32,420 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-04 09:25:32,432 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Nothing to compile - all classes are up to date.
+2025-09-04 09:25:32,434 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\test\resources to target\test-classes
+2025-09-04 09:25:32,445 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Nothing to compile - all classes are up to date.
+2025-09-04 09:25:32,638 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-04 09:25:32,641 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-09-04 09:25:32,876 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-04 09:25:32,883 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mananas\Desktop\ws\w03_tienda\src\test\resources
+2025-09-04 09:28:16,555 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-04 09:28:16,557 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mananas\Desktop\ws\w03_tienda\src\test\resources
+2025-09-04 09:41:25,014 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-04 09:41:25,016 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mananas\Desktop\ws\w03_tienda\src\test\resources
