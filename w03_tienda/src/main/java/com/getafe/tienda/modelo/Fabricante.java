@@ -1,4 +1,4 @@
-package modelo;
+package com.getafe.tienda.modelo;
 
 import java.io.Serializable;
 import java.util.Objects;
@@ -9,7 +9,6 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import jakarta.persistence.JoinColumn;
 import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 
@@ -26,12 +25,9 @@ public class Fabricante implements Serializable {
 	
 	@OneToMany(mappedBy = "fabricante")
 	private Set<Producto> productos;
-	
-	
 	public int getIdFabricante() {
 		return idFabricante;
 	}
-
 	public void setIdFabricante(int idFabricante) {
 		this.idFabricante = idFabricante;
 	}
@@ -41,12 +37,16 @@ public class Fabricante implements Serializable {
 	public void setFabricante(String fabricante) {
 		this.fabricante = fabricante;
 	}
-	
+	public Set<Producto> getProductos() {
+		return productos;
+	}
+	public void setProductos(Set<Producto> productos) {
+		this.productos = productos;
+	}
 	@Override
 	public int hashCode() {
-		return Objects.hash(fabricante, idFabricante);
+		return Objects.hash(idFabricante);
 	}
-
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
@@ -56,9 +56,8 @@ public class Fabricante implements Serializable {
 		if (getClass() != obj.getClass())
 			return false;
 		Fabricante other = (Fabricante) obj;
-		return Objects.equals(fabricante, other.fabricante) && idFabricante == other.idFabricante;
+		return idFabricante == other.idFabricante;
 	}
-
 	@Override
 	public String toString() {
 		return "Fabricante [idFabricante=" + idFabricante + ", fabricante=" + fabricante + "]";

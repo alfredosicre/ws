@@ -1,8 +1,6 @@
-package modelo;
+package com.getafe.tienda.modelo;
 
 import java.io.Serializable;
-
-import java.util.List;
 import java.util.Objects;
 
 import jakarta.persistence.Column;
@@ -17,6 +15,7 @@ import jakarta.persistence.Table;
 @Entity
 @Table(name = "productos")
 public class Producto implements Serializable {
+	private static final long serialVersionUID = 1L;
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -27,45 +26,36 @@ public class Producto implements Serializable {
 	
 	@ManyToOne
 	@JoinColumn(name = "fk_fabricante")
-	private List<Fabricante> fabricante;
-
+	private Fabricante fabricante;
+	
 	public int getIdProducto() {
 		return idProducto;
 	}
-
 	public void setIdProducto(int idProducto) {
 		this.idProducto = idProducto;
 	}
-
 	public String getProducto() {
 		return producto;
 	}
-
 	public void setProducto(String producto) {
 		this.producto = producto;
 	}
-
 	public double getPrecio() {
 		return precio;
 	}
-
 	public void setPrecio(double precio) {
 		this.precio = precio;
 	}
-
-	public List<Fabricante> getFabricantes() {
-		return getFabricantes();
+	public Fabricante getFabricante() {
+		return fabricante;
 	}
-
-	public void setFabricantes(List<Fabricante> fabricantes) {
-		this.fabricante = fabricantes;
+	public void setFabricante(Fabricante fabricante) {
+		this.fabricante = fabricante;
 	}
-
 	@Override
 	public int hashCode() {
 		return Objects.hash(idProducto);
 	}
-
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
@@ -77,10 +67,11 @@ public class Producto implements Serializable {
 		Producto other = (Producto) obj;
 		return idProducto == other.idProducto;
 	}
-
 	@Override
 	public String toString() {
-		return "Producto [idProducto=" + idProducto + ", producto=" + producto + ", precio=" + precio + "]";
+		return "Producto [idProducto=" + idProducto + ", producto=" + producto + ", precio=" + precio + ", fabricante="
+				+ fabricante + "]";
 	}
 	
+
 }

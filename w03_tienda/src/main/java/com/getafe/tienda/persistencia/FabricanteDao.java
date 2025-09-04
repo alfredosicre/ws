@@ -1,16 +1,15 @@
-package persistencia;
+package com.getafe.tienda.persistencia;
 
 import java.util.Set;
 
-import config.Config;
-import jakarta.persistence.EntityManager;
-import jakarta.persistence.EntityManagerFactory;
-import modelo.Fabricante;
+import com.getafe.tienda.modelo.Fabricante;
+
 
 public interface FabricanteDao {
-		
+	
+	
 	/**
-	 * Agrega un nuevo fabricante a la BBDD
+	 * Agrega un nuevo fabricante a la BBDD si no existe y si existe lo modifica
 	 * @param fabricante a agregar
 	 */
 	public void save(Fabricante fabricante);
@@ -41,7 +40,7 @@ public interface FabricanteDao {
 	
 	/**
 	 * Opcional
-	 * Retorna todos los fabricantes que proporcionan algun producto
+	 * Retorna todos los fabricantes
 	 * La lista de productos no se utilizara, asi que es necesario que tenga un comportamiento Lazy
 	 * 
 	 * @return Set con los fabricantes

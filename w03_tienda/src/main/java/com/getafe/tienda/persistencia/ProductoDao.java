@@ -1,8 +1,8 @@
-package persistencia;
+package com.getafe.tienda.persistencia;
 
 import java.util.List;
 
-import modelo.Producto;
+import com.getafe.tienda.modelo.Producto;
 
 public interface ProductoDao {
 
@@ -31,7 +31,7 @@ public interface ProductoDao {
 
 	/**
 	 * Opcional
-	 * Agrega el producto recibido a la BBDD
+	 * Agrega un nuevo producto a la BBDD si no existe y si existe lo modifica
 	 * 
 	 * @param p producto a almacenar
 	 */
