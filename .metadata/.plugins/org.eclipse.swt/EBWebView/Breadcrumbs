@@ -1,30 +1,119 @@
-1:07:01 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
-1:07:01 Microsoft.Shutdown.TabStripModel.CloseAllTabs
-1:07:01 Microsoft.Shutdown.TabStripModel.CloseTabs
-1:07:01 Microsoft.Shutdown.TabStripModel.CloseTabs_EdgeBeforeClosingAllTabs
-1:07:01 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl
-1:07:01 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_TabClosable
-1:07:01 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_ClosingAll
-1:07:01 Microsoft.Shutdown.TabStripModel.CloseWebContentses
-1:07:01 Microsoft.Shutdown.TabStripModel.CloseWebContentses_FastShutdown
-1:07:01 Microsoft.Shutdown.TabStripModel.ShouldRunUnloadListenerBeforeClosing_false
-1:07:01 Tab13 RenderProcessGone
-1:07:01 Microsoft.UnloadController.ClearUnloadState
-1:07:01 Microsoft.Shutdown.TabStripModel.RunUnloadListenerBeforeClosing_false
-1:07:01 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_ClosedAll
-1:07:01 Microsoft.Shutdown.TabStripModel.SendDetachWebContentsNotifications
-1:07:01 Microsoft.UnloadController.ClearUnloadState
-1:07:01 Browser13 Close Tab13 at 0
-1:07:01 Tab13 WebContentsDestroyed
-1:07:01 Microsoft.UnloadController.TabStripEmpty
-1:07:01 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
-1:07:01 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
-1:07:01 Microsoft.Shutdown.OnWindowClosing
-1:07:01 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
-1:07:01 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
-1:07:01 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
-1:07:01 Widget Closed: BrowserFrame
-1:07:01 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
-1:07:01 Microsoft.Shutdown.OnWindowClosing
-1:07:01 Microsoft.Shutdown.OnWindowClosing_DeleteScheduled
-1:07:01 Microsoft.Browser_Removed
+1:25:37 Tab16 StartNav185 #typed
+1:25:37 Tab16 FinishNav185
+1:25:37 Tab16 PageLoad
+1:25:38 Tab16 StartNav186 #typed
+1:25:38 Tab16 FinishNav186
+1:25:38 Tab16 PageLoad
+1:25:41 Tab16 StartNav187 #typed
+1:25:41 Tab16 FinishNav187
+1:25:41 Tab16 PageLoad
+1:25:46 Tab16 StartNav188 #typed
+1:25:46 Tab16 FinishNav188
+1:25:46 Tab16 PageLoad
+1:25:48 Tab16 StartNav189 #typed
+1:25:48 Tab16 FinishNav189
+1:25:48 Tab16 PageLoad
+1:25:49 Tab16 StartNav190 #typed
+1:25:49 Tab16 FinishNav190
+1:25:49 Tab16 PageLoad
+1:25:58 Tab16 StartNav191 #typed
+1:25:58 Tab16 FinishNav191
+1:25:58 Tab16 PageLoad
+1:26:01 Tab16 StartNav192 #typed
+1:26:01 Tab16 FinishNav192
+1:26:01 Tab16 PageLoad
+1:26:07 Tab16 StartNav193 #typed
+1:26:07 Tab16 FinishNav193
+1:26:07 Tab16 PageLoad
+1:26:08 Tab16 StartNav194 #typed
+1:26:08 Tab16 FinishNav194
+1:26:08 Tab16 PageLoad
+1:26:12 Tab16 StartNav195 #typed
+1:26:12 Tab16 FinishNav195
+1:26:12 Tab16 PageLoad
+1:27:00 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
+1:27:00 Microsoft.UnloadController.HasCompletedUnloadProcessing_False
+1:27:00 Microsoft.Shutdown.OnWindowClosing
+1:27:00 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
+1:27:00 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
+1:27:00 Microsoft.Shutdown.OnWindowClosing_MaybeClearBrowsingDataOnExit
+1:27:00 Microsoft.Shutdown.OnWindowClosing_ClearBrowsingDataOnExitNotInProgress
+1:27:00 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
+1:27:00 Microsoft.Shutdown.TabStripModel.CloseAllTabs
+1:27:00 Microsoft.Shutdown.TabStripModel.CloseTabs
+1:27:00 Microsoft.Shutdown.TabStripModel.CloseTabs_EdgeBeforeClosingAllTabs
+1:27:00 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl
+1:27:00 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_TabClosable
+1:27:00 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_ClosingAll
+1:27:00 Microsoft.Shutdown.TabStripModel.CloseWebContentses
+1:27:00 Microsoft.Shutdown.TabStripModel.CloseWebContentses_FastShutdown
+1:27:00 Microsoft.Shutdown.TabStripModel.ShouldRunUnloadListenerBeforeClosing_false
+1:27:00 Tab15 RenderProcessGone
+1:27:00 Microsoft.UnloadController.ClearUnloadState
+1:27:00 Microsoft.Shutdown.TabStripModel.RunUnloadListenerBeforeClosing_false
+1:27:00 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_ClosedAll
+1:27:00 Microsoft.Shutdown.TabStripModel.SendDetachWebContentsNotifications
+1:27:00 Microsoft.UnloadController.ClearUnloadState
+1:27:00 Browser15 Close Tab15 at 0
+1:27:00 Tab15 WebContentsDestroyed
+1:27:00 Microsoft.UnloadController.TabStripEmpty
+1:27:00 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
+1:27:00 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
+1:27:00 Microsoft.Shutdown.OnWindowClosing
+1:27:00 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
+1:27:00 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
+1:27:00 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
+1:27:00 Widget Closed: BrowserFrame
+1:27:00 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
+1:27:00 Microsoft.Shutdown.OnWindowClosing
+1:27:00 Microsoft.Shutdown.OnWindowClosing_DeleteScheduled
+1:27:00 Microsoft.Browser_Removed
+1:27:03 Tab16 StartNav196 #typed
+1:27:03 Tab16 FinishNav196
+1:27:03 Tab16 PageLoad
+1:27:04 Tab16 StartNav197 #typed
+1:27:04 Tab16 FinishNav197
+1:27:04 Tab16 PageLoad
+1:29:07 Tab16 StartNav198 #typed
+1:29:07 Tab16 FinishNav198
+1:29:07 Tab16 PageLoad
+1:29:08 Tab16 StartNav199 #typed
+1:29:08 Tab16 FinishNav199
+1:29:08 Tab16 PageLoad
+1:29:09 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
+1:29:09 Microsoft.UnloadController.HasCompletedUnloadProcessing_False
+1:29:09 Microsoft.Shutdown.OnWindowClosing
+1:29:09 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
+1:29:09 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
+1:29:09 Microsoft.Shutdown.OnWindowClosing_MaybeClearBrowsingDataOnExit
+1:29:09 Microsoft.Shutdown.OnWindowClosing_ClearBrowsingDataOnExitNotInProgress
+1:29:09 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
+1:29:09 Microsoft.Shutdown.TabStripModel.CloseAllTabs
+1:29:09 Microsoft.Shutdown.TabStripModel.CloseTabs
+1:29:09 Microsoft.Shutdown.TabStripModel.CloseTabs_EdgeBeforeClosingAllTabs
+1:29:09 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl
+1:29:09 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_TabClosable
+1:29:09 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_ClosingAll
+1:29:09 Microsoft.Shutdown.TabStripModel.CloseWebContentses
+1:29:09 Microsoft.Shutdown.TabStripModel.CloseWebContentses_FastShutdown
+1:29:09 Microsoft.Shutdown.TabStripModel.ShouldRunUnloadListenerBeforeClosing_false
+1:29:09 Tab16 RenderProcessGone
+1:29:09 Microsoft.UnloadController.ClearUnloadState
+1:29:09 Microsoft.Shutdown.TabStripModel.RunUnloadListenerBeforeClosing_false
+1:29:09 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_ClosedAll
+1:29:09 Microsoft.Shutdown.TabStripModel.SendDetachWebContentsNotifications
+1:29:09 Microsoft.UnloadController.ClearUnloadState
+1:29:09 Browser16 Close Tab16 at 0
+1:29:09 Tab16 WebContentsDestroyed
+1:29:09 Microsoft.UnloadController.TabStripEmpty
+1:29:09 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
+1:29:09 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
+1:29:09 Microsoft.Shutdown.OnWindowClosing
+1:29:09 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
+1:29:09 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
+1:29:09 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
+1:29:09 Widget Closed: BrowserFrame
+1:29:09 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
+1:29:09 Microsoft.Shutdown.OnWindowClosing
+1:29:09 Microsoft.Shutdown.OnWindowClosing_DeleteScheduled
+1:29:09 Microsoft.Browser_Removed

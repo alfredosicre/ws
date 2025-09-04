@@ -8,15 +8,16 @@ package ejemplos;
 	public class Ejemplo01 {
 
 	    public static void main(String[] args) {
-	        Set<Integer> conjunto1 = new HashSet<Integer>();
-	        conjunto1.add(20);
-	        conjunto1.add(10);
-	        conjunto1.add(1);
-	        conjunto1.add(5);
+	        Set<String> conjunto1 = new HashSet<String>();
+	        conjunto1.add("numero 20");
+	        conjunto1.add("numero 10");
+	        conjunto1.add("numero 1");
+	        conjunto1.add("numero 5");
 	        // El valor 20 no se inserta en el conjunto ya que se encuentra repetido
-	        conjunto1.add(20);
+	        conjunto1.add("numero 20");
 	        // La impresión no asegura un orden específico
-	        for (int elemento : conjunto1)
+	        System.out.println("Ejemplo de HastSet - La impresión no asegura un orden específico");
+	        for (String elemento : conjunto1)
 	            System.out.print(elemento + " - ");
 	        System.out.println();
 	        System.out.println();
@@ -29,6 +30,7 @@ package ejemplos;
 	        // El valor 20 no se inserta en el conjunto ya que se encuentra repetido
 	        conjunto2.add(20);
 	        // Los elementos se muestran de menor a mayor
+	        System.out.println("Ejemplo de TreeSet - Los elementos se muestran de menor a mayor");
 	        for (int elemento : conjunto2)
 	            System.out.print(elemento + " - ");
 	        System.out.println();
@@ -42,6 +44,7 @@ package ejemplos;
 	        // El valor 20 no se inserta en el conjunto ya que se encuentra repetido
 	        conjunto3.add(20);
 	        // Los elementos se muestran en el orden que se insertaron
+	        System.out.println("Ejemplo de LinkedHastSet - Los elementos se muestran en el orden que se insertaron");
 	        for (int elemento : conjunto3)
 	            System.out.print(elemento + " - ");
 	        System.out.println();
