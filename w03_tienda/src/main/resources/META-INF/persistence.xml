@@ -8,9 +8,12 @@
     <persistence-unit name="tienda"   transaction-type="RESOURCE_LOCAL">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 
-		<class>tienda.config.Config</class>
+		<class>config.Config</class>
 		<class>modelo.Fabricante</class>
 		<class>modelo.Producto</class>
+		<class>persistencia.FuenteDatos</class>
+		<class>persistencia.TestProductoDao</class>
+		<class>persistencia.TestFabricanteDao</class>
 		
         <properties>
             <!-- JDBC -->
