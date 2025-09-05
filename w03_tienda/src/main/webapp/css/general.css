@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body{
+  font-family:Helvetica, Arial, sans-serif;
+}
+
+.cabecera{
+  margin:0px auto;
+  text-align: center;
+}
+
+#contPrincipal{
+  margin: 0px auto;
+  width: 350px;
+  background-color: #eeeeee;
+  padding: 20px 5px;
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
+}
