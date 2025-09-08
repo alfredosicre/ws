@@ -26,6 +26,8 @@
 			<li><a href="${home}/registro_fabricante">Crear Fabricante</a></li>
 			<li><a href="${home}/listado_fabricantes">Fabricantes Activos</a></li>
 			<hr />
+			<li><a href="${home}/informacion">Información</a></li>
+			<hr />
 			<li><a href="${home}/cerrar_sesion">Cerrar Sesion</a></li>
 		</ul>
 	</div>

@@ -1,0 +1,59 @@
+package com.getafe.tienda.negocio;
+	
+import java.text.Collator;
+import java.util.Comparator;
+import java.util.Locale;
+import java.util.Set;
+import java.util.TreeSet;
+
+import com.getafe.tienda.modelo.Producto;
+import com.getafe.tienda.persistencia.ProductoDao;
+import com.getafe.tienda.persistencia.ProductoDaoImpl;
+
+public class TiendaImpl implements Tienda {
+	
+	private ProductoDao pDao;
+	
+	public TiendaImpl() {
+		pDao = new ProductoDaoImpl();
+	}
+
+		
+	@Override
+	public Set<Producto> getProductos(){
+		Set<Producto> resu = new TreeSet<Producto>(getComparatorProductoDesc());
+		resu.addAll(pDao.findAll());
+	return resu;
+	}
+
+	@Override
+	public Set<Producto> getProductos(String descripcion){
+		Set<Producto> resu = new TreeSet<Producto>(getComparatorProductoDescLambda());
+		resu.addAll(pDao.findByDescripcion(descripcion));
+		return resu;
+	}
+	
+	private Comparator<Producto> getComparatorProductoDesc(){
+		return new Comparator<Producto>() {
+			
+			@Override
+			public int compare(Producto o1, Producto o2) {
+				Collator col = Collator.getInstance(new Locale("es"));
+				return col.compare(o1.getProducto(), o2.getProducto());
+			}	
+		};
+	}
+	
+	private Comparator<Producto> getComparatorProductoDescLambda01(){ // // lo mismo que arriba pero con expresiones lambda
+		return (p1,p2) -> {
+			Collator col = Collator.getInstance(new Locale("es"));
+			return col.compare(p1.getProducto(), p2.getProducto());	
+		};
+	}
+	
+	private Comparator<Producto> getComparatorProductoDescLambda() { // mismo que lo de arriba pero con expresiones lambda. Esta está por Id de producto
+	    return (p1, p2) -> p1.getIdProducto() - p2.getIdProducto();
+	       
+	}
+	
+}

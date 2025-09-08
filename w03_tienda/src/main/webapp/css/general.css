@@ -16,4 +16,32 @@ body{
   padding: 20px 5px;
   border: 2px solid #e0e0e0;
   border-radius: 10px;
+  text-align: center;
+}
+
+button{
+	border: none;
+	color: white;
+	background-color: #358588;
+	padding: 10px;
+	font-size: 1.05em;
+	margin: 10px auto;
+	width: 150pz;
+	border-radius: 7px;
+	text-align: center;
+}
+
+bott:hover {
+	background-color: #257578;
+}
+
+input{
+	display: block;
+	margin: auto;
+	padding: 10px;
+	margin-bottom: 20px;
+	font-size: 1.05em;
+	border-radius: 7px;
+	border: 2px solid #e0e0e0;
+	text-align: center;
 }
