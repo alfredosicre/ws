@@ -39,6 +39,8 @@ public class Controler extends HttpServlet {
 			case "/listado_productos":
 				req.getRequestDispatcher("/WEB-INF/vista/listado_productos.jsp").forward(req, resp);
 				break;
+			case "/alta_producto":
+				req.getRequestDispatcher("/WEB-INF/vista/alta_producto.jsp").forward(req, resp);
 			
 			}
 			
@@ -59,6 +61,14 @@ public class Controler extends HttpServlet {
 				req.setAttribute("prods", prods);
 				req.getRequestDispatcher("/WEB-INF/vista/listado_productos.jsp").forward(req, resp);
 			break;
+			case "/alta_producto":
+				descripcion = req.getParameter("descripcion");
+				String precioStr = req.getParameter("precio");
+				String idFabStr = req.getParameter("idFabricante");
+				System.out.println(descripcion);
+				System.out.println(precioStr);
+				System.out.println(idFabStr);
+				break;
 			}
 		}
 		
