@@ -6,18 +6,22 @@ import java.util.Locale;
 import java.util.Set;
 import java.util.TreeSet;
 
+import com.getafe.tienda.modelo.Fabricante;
 import com.getafe.tienda.modelo.Producto;
+import com.getafe.tienda.persistencia.FabricanteDao;
+import com.getafe.tienda.persistencia.FabricanteDaoImpl;
 import com.getafe.tienda.persistencia.ProductoDao;
 import com.getafe.tienda.persistencia.ProductoDaoImpl;
 
 public class TiendaImpl implements Tienda {
 	
 	private ProductoDao pDao;
+	private FabricanteDao fDao;
 	
 	public TiendaImpl() {
 		pDao = new ProductoDaoImpl();
+		fDao = new FabricanteDaoImpl();
 	}
-
 		
 	@Override
 	public Set<Producto> getProductos(){
@@ -56,4 +60,15 @@ public class TiendaImpl implements Tienda {
 	       
 	}
 	
+	private Comparator<Fabricante> getComparatorFabricante() { // mismo que lo de arriba pero con expresiones lambda. 
+		Collator col = Collator.getInstance(new Locale("es"));
+	    return (f1, f2) -> col.compare(f1.getFabricante(), f2.getFabricante());
+	}
+
+	@Override
+	public Set<Fabricante> getFabricantes() {
+		Set<Fabricante> resu = new TreeSet<Fabricante>(getComparatorFabricante());
+		resu.addAll(fDao.findAll());
+		return resu;
+	}
 }

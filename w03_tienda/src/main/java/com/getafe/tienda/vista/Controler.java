@@ -3,6 +3,7 @@ package com.getafe.tienda.vista;
 import java.io.IOException;
 import java.util.Set;
 
+import com.getafe.tienda.modelo.Fabricante;
 import com.getafe.tienda.modelo.Producto;
 import com.getafe.tienda.negocio.Tienda;
 import com.getafe.tienda.negocio.TiendaImpl;
@@ -40,6 +41,8 @@ public class Controler extends HttpServlet {
 				req.getRequestDispatcher("/WEB-INF/vista/listado_productos.jsp").forward(req, resp);
 				break;
 			case "/alta_producto":
+				Set<Fabricante> fabs = neg.getFabricantes();
+				req.setAttribute("fabs", fabs);
 				req.getRequestDispatcher("/WEB-INF/vista/alta_producto.jsp").forward(req, resp);
 			
 			}

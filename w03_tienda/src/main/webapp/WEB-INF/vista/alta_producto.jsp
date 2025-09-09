@@ -15,9 +15,25 @@
 
 <script type="text/javascript">
 
-function validaForm(){
+function validaForm(ev){
 	
+	ev.preventDefault();
+	let descripcion = document.getElementById("descripcion").value.trim();
+	let precio = document.getElementById("precio").value.trim();
+	let idFabricante = document.getElementById("idFabricante").value;
+	
+	let error = document.getElementById("error");
+	
+	if(!descripcion || !precio || !idFabricante){
+		error.textContent = "¡¡ Todos los campos son obligatorios !!";
+	}else if(isNaN(precio) || precio <= 0) {
+		error.textContent = "¡¡ El precio debe ser numérico y mayor que cero !!";
+	}else{
+		error.textContent = "";
+		ev.currentTarget.submit();
+	}
 }
+ 
 window.onload = function(){
 	document.getElementById("form_prod").addEventListener("submit", validaForm);	
 	}
@@ -31,13 +47,18 @@ window.onload = function(){
 	
 	<div id="contPrincipal">
 		<form id="form_prod" action="${home}/alta_producto" method= "post">
-			<input type = "text" name = "descripcion" placeholder="Descripción">
-			<input type = "text" name = "precio" placeholder="Precio">
-			<select name = "IdFabricante">
+			<input id = "descripcion" type = "text" name = "descripcion" placeholder="Descripción">
+			<input id = "precio" type = "text" name = "precio" placeholder="Precio">
+			<select id = "idFabricante" name = "IdFabricante">
+				<option value="" hidden="hidden">Seleccione Fabricante</option>
+				
+				<c:forEach var = "fabricante" items = "${fabs }" >
+					<option value = "${fabricante.idFabricante }" > ${fabricante.fabricante} </option>
+				</c:forEach>
+				
 				<option value = "20">Asus20</option>
-				<option value = "19">Asus19</option>
-				<option value = "18">Asus18</option>
-				<option value = "17">Asus17</option>
+				
+				
 			</select>
 			<button type = "submit">Alta</button>
 		</form>
@@ -45,6 +66,7 @@ window.onload = function(){
 		
 		
 		<a href="${home}/menu_principal"><button>Volver</button></a>
+		<p id="error"> &nbsp;</p>
 	</div>	
 </body>
 
