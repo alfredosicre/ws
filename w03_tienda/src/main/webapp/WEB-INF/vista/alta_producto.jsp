@@ -56,9 +56,6 @@ window.onload = function(){
 					<option value = "${fabricante.idFabricante }" > ${fabricante.fabricante} </option>
 				</c:forEach>
 				
-				<option value = "20">Asus20</option>
-				
-				
 			</select>
 			<button type = "submit">Alta</button>
 		</form>

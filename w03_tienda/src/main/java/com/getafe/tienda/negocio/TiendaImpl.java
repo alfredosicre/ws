@@ -60,6 +60,7 @@ public class TiendaImpl implements Tienda {
 	       
 	}
 	
+	// Fabricante:
 	private Comparator<Fabricante> getComparatorFabricante() { // mismo que lo de arriba pero con expresiones lambda. 
 		Collator col = Collator.getInstance(new Locale("es"));
 	    return (f1, f2) -> col.compare(f1.getFabricante(), f2.getFabricante());

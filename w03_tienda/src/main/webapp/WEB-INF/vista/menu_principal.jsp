@@ -16,14 +16,14 @@
 	</header>
 	<div id="contPrincipal">
 		<ul>
-			<li><a href="${home}/listado_productos">Productos</a></li>
-			<li><a href="${home}/alta_producto">Alta de Producto</a></li>
+			<li><a href="${home}/listado_productos">Consulta de Productos</a></li>
+			<li><a href="${home}/alta_producto">Alta de Productos</a></li>
 			<li><a href="${home}/productos_fabricante">Productos por Fabricante</a></li>
 			<li><a href="${home}/productos_fabricante_html">Productos por Fabricante HTML</a></li>
 			<li><a href="${home}/productos_fabricante_json">Productos por Fabricante JSON</a></li>
 			<li><a href="${home}/ofertas">Registro de Ofertas</a></li>
 			<hr />
-			<li><a href="${home}/registro_fabricante">Crear Fabricante</a></li>
+			<li><a href="${home}/registro_fabricante">Alta de Fabricantes</a></li>
 			<li><a href="${home}/listado_fabricantes">Fabricantes Activos</a></li>
 			<hr />
 			<li><a href="${home}/informacion">Información</a></li>

@@ -44,7 +44,8 @@ public class Controler extends HttpServlet {
 				Set<Fabricante> fabs = neg.getFabricantes();
 				req.setAttribute("fabs", fabs);
 				req.getRequestDispatcher("/WEB-INF/vista/alta_producto.jsp").forward(req, resp);
-			
+				//
+				break;
 			}
 			
 		}
@@ -84,6 +85,10 @@ public class Controler extends HttpServlet {
 			app.setAttribute("home", app.getContextPath() + "/tienda" );
 			app.setAttribute("css", app.getContextPath() + "/css");
 			
+		}
+		
+		public boolean isEmpty(String param) {
+			return param != null && param.trim().length() > 0;
 		}
 
 }
