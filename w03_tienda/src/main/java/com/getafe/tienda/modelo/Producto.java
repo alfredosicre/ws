@@ -28,6 +28,16 @@ public class Producto implements Serializable {
 	@JoinColumn(name = "fk_fabricante")
 	private Fabricante fabricante;
 	
+	public Producto() {
+	}
+	
+	public Producto(String producto, double precio, Fabricante fabricante) {
+		super();
+		this.producto = producto;
+		this.precio = precio;
+		this.fabricante = fabricante;
+	}
+	
 	public int getIdProducto() {
 		return idProducto;
 	}

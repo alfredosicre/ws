@@ -37,6 +37,23 @@ public class TiendaImpl implements Tienda {
 		return resu;
 	}
 	
+	@Override
+	public Set<Fabricante> getFabricantes() {
+		Set<Fabricante> resu = new TreeSet<Fabricante>(getComparatorFabricante());
+		resu.addAll(fDao.findAll());
+		return resu;
+	}
+
+	@Override
+	public Fabricante getFabricante(int idFabricante) {
+		return fDao.findById(idFabricante);
+	}
+	@Override
+	public void crearProducto(Producto p) {
+		pDao.save(p);
+	}
+	
+	
 	private Comparator<Producto> getComparatorProductoDesc(){
 		return new Comparator<Producto>() {
 			
@@ -66,10 +83,5 @@ public class TiendaImpl implements Tienda {
 	    return (f1, f2) -> col.compare(f1.getFabricante(), f2.getFabricante());
 	}
 
-	@Override
-	public Set<Fabricante> getFabricantes() {
-		Set<Fabricante> resu = new TreeSet<Fabricante>(getComparatorFabricante());
-		resu.addAll(fDao.findAll());
-		return resu;
-	}
+	
 }

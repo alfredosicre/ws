@@ -18,4 +18,17 @@ public interface Tienda {
 	// Devuelve todos los fabricantes ordenados por el nombre
 	Set<Fabricante> getFabricantes();
 	
+	/**
+	 * Retorna el fabricante buscado
+	 * @param idFabricante
+	 * @return el fabricante si existe, null si no existe
+	 */
+	Fabricante getFabricante(int idFabricante);
+	
+	/**
+	 * Agraga un nuevo producto en la persistencia
+	 * @param p producto a agragar
+	 */
+	void crearProducto(Producto p);
+	
 }

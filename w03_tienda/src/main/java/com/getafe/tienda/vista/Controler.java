@@ -69,9 +69,26 @@ public class Controler extends HttpServlet {
 				descripcion = req.getParameter("descripcion");
 				String precioStr = req.getParameter("precio");
 				String idFabStr = req.getParameter("idFabricante");
-				System.out.println(descripcion);
-				System.out.println(precioStr);
-				System.out.println(idFabStr);
+				double precio;
+				Fabricante fab;
+				if(!isEmpty(descripcion)
+						&& !isEmpty(precioStr)
+						&& !isEmpty(idFabStr)
+						&& isDouble(precioStr)
+						&& isInteger(idFabStr)
+						&& (precio = Double.parseDouble(precioStr)) > 0
+						&& (fab = neg.getFabricante(Integer.parseInt(idFabStr))) != null) {
+						// si entro en este if, es porque todos los datos estan bien y damos de alta el producto
+						req.setAttribute("producto", descripcion);
+						try {
+							neg.crearProducto(new Producto(descripcion, precio, fab));
+							req.getRequestDispatcher("/WEB-INF/vista/alta_producto_ok.jsp").forward(req, resp);
+						}catch (Exception e){
+							req.getRequestDispatcher("/WEB-INF/vista/alta_producto_error.jsp").forward(req, resp);
+						}
+				}else {
+					// cerramos la sesion porque la informacion enviada esta mal.
+				}
 				break;
 			}
 		}
@@ -89,6 +106,24 @@ public class Controler extends HttpServlet {
 		
 		public boolean isEmpty(String param) {
 			return param != null && param.trim().length() > 0;
+		}
+		
+		public boolean isDouble(String num) {
+			try {
+				Double.parseDouble(num);
+				return true;
+			}catch (NumberFormatException e) {
+				return false;
+			}
+		}
+		
+		public boolean isInteger(String num) {
+			try {
+				Integer.parseInt(num);
+				return true;
+			}catch (NumberFormatException e) {
+				return false;
+			}
 		}
 
 }
