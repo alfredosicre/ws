@@ -19,7 +19,6 @@
 			<li><a href="${home}/listado_productos">Consulta de Productos</a></li>
 			<li><a href="${home}/alta_producto">Alta de Productos</a></li>
 			<li><a href="${home}/productos_fabricante">Consulta de Productos por Fabricante</a></li>
-			<li><a href="${home}/productos_fabricante_html">Productos por Fabricante HTML</a></li>
 			<li><a href="${home}/productos_fabricante_json">Productos por Fabricante JSON</a></li>
 			<li><a href="${home}/ofertas">Registro de Ofertas</a></li>
 			<hr />

@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.util.Map.Entry;
 import java.util.Set;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.getafe.tienda.modelo.Fabricante;
 import com.getafe.tienda.modelo.Producto;
 import com.getafe.tienda.negocio.Tienda;
@@ -58,10 +59,14 @@ public class Controler extends HttpServlet {
 				req.getRequestDispatcher("/WEB-INF/vista/alta_producto_error.jsp").forward(req, resp);
 				break;
 			case "/productos_fabricante":
-				
 				fabs = neg.getFabricantesActivos();
 				req.setAttribute("fabs", fabs);
 				req.getRequestDispatcher("/WEB-INF/vista/productos_fabricante.jsp").forward(req, resp);
+				break;
+			case "/productos_fabricante_json":
+				fabs = neg.getFabricantesActivos();
+				req.setAttribute("fabs", fabs);
+				req.getRequestDispatcher("/WEB-INF/vista/productos_fabricante_json.jsp").forward(req, resp);
 				break;
 			}
 			
@@ -124,6 +129,21 @@ public class Controler extends HttpServlet {
 						&& (fab = neg.getFabricante(Integer.parseInt(idFabStr))) != null) {
 					sesion.setAttribute("fab", fab);
 					resp.sendRedirect(home + "/productos_fabricante");
+				}else {
+					// cerrar sesion... fallo
+				}
+				break;
+			case "/productos_fabricante_json_respuesta":
+				idFabStr = req.getParameter("idFabricante");
+				System.out.println(idFabStr);
+				if(!isEmpty(idFabStr)
+						&& isInteger(idFabStr)
+						&& (fab = neg.getFabricante(Integer.parseInt(idFabStr))) != null) {
+					
+						ObjectMapper mapper = new ObjectMapper();
+						String json = mapper.writeValueAsString(fab.getProductos());
+						resp.getWriter().println(json);
+					
 				}else {
 					// cerrar sesion... fallo
 				}
