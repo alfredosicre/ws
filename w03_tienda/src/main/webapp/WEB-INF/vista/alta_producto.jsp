@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <%@ taglib uri="jakarta.tags.core" prefix="c" %>
 <%@ taglib uri="jakarta.tags.fmt" prefix="fmt" %>
 <!DOCTYPE html>
@@ -21,13 +21,12 @@ function validaForm(ev){
 	let descripcion = document.getElementById("descripcion").value.trim();
 	let precio = document.getElementById("precio").value.trim();
 	let idFabricante = document.getElementById("idFabricante").value;
-	
 	let error = document.getElementById("error");
 	
 	if(!descripcion || !precio || !idFabricante){
-		error.textContent = "¡¡ Todos los campos son obligatorios !!";
+		error.textContent = "Â¡Â¡ Todos los campos son obligatorios !!";
 	}else if(isNaN(precio) || precio <= 0) {
-		error.textContent = "¡¡ El precio debe ser numérico y mayor que cero !!";
+		error.textContent = "Â¡Â¡ El precio debe ser numÃ©rico y mayor que cero !!";
 	}else{
 		error.textContent = "";
 		ev.currentTarget.submit();
@@ -47,9 +46,9 @@ window.onload = function(){
 	
 	<div id="contPrincipal">
 		<form id="form_prod" action="${home}/alta_producto" method= "post">
-			<input id = "descripcion" type = "text" name = "descripcion" placeholder="Descripción">
+			<input id = "descripcion" type = "text" name = "descripcion" placeholder="DescripciÃ³n">
 			<input id = "precio" type = "text" name = "precio" placeholder="Precio">
-			<select id = "idFabricante" name = "IdFabricante">
+			<select id = "idFabricante" name = "idFabricante">
 				<option value="" hidden="hidden">Seleccione Fabricante</option>
 				
 				<c:forEach var = "fabricante" items = "${fabs }" >

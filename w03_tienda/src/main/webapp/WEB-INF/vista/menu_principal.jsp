@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <%@ taglib uri="jakarta.tags.core" prefix="c" %>
 <%@ taglib uri="jakarta.tags.fmt" prefix="fmt" %>
 <!DOCTYPE html>
@@ -18,7 +18,7 @@
 		<ul>
 			<li><a href="${home}/listado_productos">Consulta de Productos</a></li>
 			<li><a href="${home}/alta_producto">Alta de Productos</a></li>
-			<li><a href="${home}/productos_fabricante">Productos por Fabricante</a></li>
+			<li><a href="${home}/productos_fabricante">Consulta de Productos por Fabricante</a></li>
 			<li><a href="${home}/productos_fabricante_html">Productos por Fabricante HTML</a></li>
 			<li><a href="${home}/productos_fabricante_json">Productos por Fabricante JSON</a></li>
 			<li><a href="${home}/ofertas">Registro de Ofertas</a></li>
@@ -26,7 +26,7 @@
 			<li><a href="${home}/registro_fabricante">Alta de Fabricantes</a></li>
 			<li><a href="${home}/listado_fabricantes">Fabricantes Activos</a></li>
 			<hr />
-			<li><a href="${home}/informacion">Información</a></li>
+			<li><a href="${home}/informacion">InformaciÃ³n</a></li>
 			<hr />
 			<li><a href="${home}/cerrar_sesion">Cerrar Sesion</a></li>
 		</ul>

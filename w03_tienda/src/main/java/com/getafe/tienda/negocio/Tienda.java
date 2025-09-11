@@ -31,4 +31,10 @@ public interface Tienda {
 	 */
 	void crearProducto(Producto p);
 	
+	/**
+	 * Devuelve todos los fabricantes que tienen productos
+	 * @return Set de fabricantes ordenados
+	 */
+	Set<Fabricante> getFabricantesActivos();
+	
 }

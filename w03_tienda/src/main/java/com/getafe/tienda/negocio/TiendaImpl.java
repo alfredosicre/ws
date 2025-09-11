@@ -53,6 +53,13 @@ public class TiendaImpl implements Tienda {
 		pDao.save(p);
 	}
 	
+	@Override
+	public Set<Fabricante> getFabricantesActivos() {
+		Set<Fabricante> resu = new TreeSet<Fabricante>(getComparatorFabricante());
+		resu.addAll(fDao.findOnlyActive());
+		return resu;
+	}
+	
 	
 	private Comparator<Producto> getComparatorProductoDesc(){
 		return new Comparator<Producto>() {

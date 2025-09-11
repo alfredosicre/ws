@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="jakarta.persistence.Embedded"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.Embeddable"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.AttributeOverride"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.ElementCollection"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.CollectionTable"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.TypedQuery"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
     <fullyQualifiedTypeName name="com.cursogetafe.agenda.persistencia.ContactoDao"/>
     <fullyQualifiedTypeName name="com.cursogetafe.agenda.negocio.AgendaImpl"/>
@@ -60,4 +54,10 @@
     <fullyQualifiedTypeName name="java.text.Collator"/>
     <fullyQualifiedTypeName name="java.util.Comparator"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="java.util.Map.Entry"/>
+    <fullyQualifiedTypeName name="jakarta.servlet.http.HttpSession"/>
+    <fullyQualifiedTypeName name="com.fasterxml.jackson.core.JsonProcessingException"/>
+    <fullyQualifiedTypeName name="com.getafe.tienda.persistencia.ProductoDao"/>
+    <fullyQualifiedTypeName name="com.fasterxml.jackson.annotation.JsonIgnoreProperties"/>
+    <fullyQualifiedTypeName name="com.fasterxml.jackson.databind.ObjectMapper"/>
 </qualifiedTypeNameHistroy>
