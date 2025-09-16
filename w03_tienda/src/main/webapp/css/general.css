@@ -1,11 +1,9 @@
-@charset "UTF-8";
-
 body{
-  font-family:Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 .cabecera{
-  margin:0px auto;
+  margin: 0px auto;
   text-align: center;
 }
 
@@ -20,28 +18,26 @@ body{
 }
 
 button{
-	border: none;
-	color: white;
-	background-color: #358588;
-	padding: 10px;
-	font-size: 1.05em;
-	margin: 10px auto;
-	width: 150pz;
-	border-radius: 7px;
-	text-align: center;
+  border: none;
+  color: white;
+  background-color: #35858B;
+  padding: 10px;
+  font-size: 1.05em;
+  margin: 10px auto;
+  width: 150px;
+  border-radius: 7px;
 }
 
-bott:hover {
-	background-color: #257578;
+button:hover{
+  background-color: #257578;
 }
 
 input, select {
-	display: block;
-	margin: auto;
-	padding: 10px;
-	margin-bottom: 20px;
-	font-size: 1.05em;
-	border-radius: 7px;
-	border: 2px solid #e0e0e0;
-	text-align: center;
+  display: block;
+  margin: auto;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 1.05em;
+  border-radius: 7px;
+  border: 2px solid #e0e0e0;
 }

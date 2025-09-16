@@ -68,3 +68,4 @@
 2:21:14 Microsoft.Shutdown.OnWindowClosing
 2:21:14 Microsoft.Shutdown.OnWindowClosing_DeleteScheduled
 2:21:14 Microsoft.Browser_Removed
+4:39:52 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
