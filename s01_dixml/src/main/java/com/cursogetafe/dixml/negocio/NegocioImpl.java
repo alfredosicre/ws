@@ -15,13 +15,12 @@ public class NegocioImpl implements Negocio{
 		System.out.println("Constructor por defecto del NegocioImpl(ClienteDao)");
 	}
 	
-	
-	
 	@Override
 	public String proceso(int idCliente) {
 		return "Soy el negocio y llamo al Dao: " + cDao.findById(idCliente);
 	}
 
+//	los get y los set
 	public ClienteDao getcDao() {
 		return cDao;
 	}
