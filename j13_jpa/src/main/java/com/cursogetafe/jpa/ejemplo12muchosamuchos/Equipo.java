@@ -1,4 +1,4 @@
-package com.cursogetafe.jpa.ejemplo12muchosamuchos;
+ package com.cursogetafe.jpa.ejemplo12muchosamuchos;
 import java.util.Objects;
 import java.util.Set;
 
@@ -21,9 +21,9 @@ public class Equipo {
 	private String equipo;
 	
 	@ManyToMany
-	@JoinTable(name = "equipos_jugadores_03", 
-		joinColumns = @JoinColumn(name = "idequipo"),
-		inverseJoinColumns = @JoinColumn(name = "idjugador"))		
+	@JoinTable(name = "equipos_jugadores_03", // nombre de la tabla relacion, el detalle de la relacion.
+		joinColumns = @JoinColumn(name = "idequipo"), // nombre del fk de la tabla relacion
+		inverseJoinColumns = @JoinColumn(name = "idjugador")) // nombre de la otra fk de la tabla relacion  Las fk's estan en la tabla formada por la relacion		
 	private Set<Jugador> jugadores;
 	
 

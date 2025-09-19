@@ -3,18 +3,17 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans
 		 https://www.springframework.org/schema/beans/spring-beans.xsd">
-		 
-		 <bean id="cliente_dao" class="com.cursogetafe.dixml.persistencia.ClienteDaoImpl" />
-		 
-		 
-<!-- 		 inyeccion de dependencia por setter -->
-		 <bean id="negocio" class ="com.cursogetafe.dixml.negocio.NegocioImpl">
-		 	<property name="cDao" ref="cliente_dao" />
-		 </bean>
-		 
-<!-- 		 inyeccion de dependencia por constructor. Es la mas recomendada-->
-		<bean id = "negocio2" class ="com.cursogetafe.dixml.negocio.NegocioImpl">
-			<constructor-arg ref = "cliente_dao"/>
-		</bean>
+
+	<bean id="cliente_dao" class="com.cursogetafe.dixml.persistencia.ClienteDaoImpl"/>
+	
+<!-- 	Inyección de dependencia por setter-->
+	<bean id="negocio" class="com.cursogetafe.dixml.negocio.NegocioImpl">
+		<property name="cDao" ref="cliente_dao" />
+	</bean>
+	
+<!-- 	Inyección de depencia por constructor -->
+	<bean id="negocio2" class="com.cursogetafe.dixml.negocio.NegocioImpl">
+		<constructor-arg ref="cliente_dao" />
+	</bean>
 		
 </beans>
