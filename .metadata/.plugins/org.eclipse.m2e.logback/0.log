@@ -6252,3 +6252,7 @@ org.eclipse.core.runtime.CoreException: Launch configuration TestMapeo reference
 2025-09-19 10:43:08,891 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Nothing to compile - all classes are up to date.
 2025-09-19 10:43:08,894 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mananas\Desktop\ws\j13_jpa\src\test\resources
 2025-09-19 10:43:08,904 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Nothing to compile - all classes are up to date.
+2025-09-19 10:43:52,096 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mananas\Desktop\ws\j13_jpa\src\main\resources
+2025-09-19 10:43:52,124 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Nothing to compile - all classes are up to date.
+2025-09-19 10:43:52,126 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mananas\Desktop\ws\j13_jpa\src\test\resources
+2025-09-19 10:43:52,135 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Nothing to compile - all classes are up to date.
