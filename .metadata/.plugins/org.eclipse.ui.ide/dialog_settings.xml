@@ -19,6 +19,9 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\Mananas\Desktop\ws\s04_agendaV3"/>
+			<item value="C:\Users\Mananas\Desktop\ws\s03_dijavaconfig"/>
+			<item value="C:\Users\Mananas\Desktop\ws\s02_dianotaciones"/>
 			<item value="C:\Users\Mananas\Desktop\ws\s01_dixml"/>
 			<item value="\\GE1210\Alumnos\Modulo_III\Ejemplos\w03_tienda"/>
 			<item value="C:\Users\Mananas\Desktop\ws"/>
@@ -26,7 +29,7 @@
 			<item value="/Users/mananas/ALFREDO/alfredoJava01/src/j03_objetos"/>
 		</list>
 		<section name="SmartImportWizard.dialogBounds">
-			<item key="DIALOG_X_ORIGIN" value="505"/>
+			<item key="DIALOG_X_ORIGIN" value="467"/>
 			<item key="DIALOG_Y_ORIGIN" value="71"/>
 			<item key="DIALOG_WIDTH" value="886"/>
 			<item key="DIALOG_HEIGHT" value="627"/>
