@@ -2,12 +2,15 @@ package es.cursosanblas.examen.modelo;
 
 import java.io.Serializable;
 import java.util.Objects;
+import java.util.Set;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToMany;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 
@@ -23,9 +26,15 @@ public class Asignatura implements Comparable<Asignatura>, Serializable {
 	private int creditos;
 	private String facultad;
 	
+	@ManyToMany(mappedBy = "asignaturas")
+	private Set<Alumnos> alumnos;
 	@ManyToOne
 	@JoinColumn(name = "fk_profesor")
 	private Profesor profesor;
+	
+	@ManyToOne
+	@JoinColumn(name = "fk_profesor")
+	
 	
 	public Profesor getProfesor() {
 		return profesor;

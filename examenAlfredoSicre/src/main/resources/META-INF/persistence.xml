@@ -5,16 +5,19 @@
                                  https://jakarta.ee/xml/ns/persistence/persistence_3_0.xsd"
              version="3.0">
 
-    <persistence-unit name="agenda" transaction-type="RESOURCE_LOCAL">
+    <persistence-unit name="91_ex_universidad_test" transaction-type="RESOURCE_LOCAL">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 
-		<class>com.cursogetafe.agenda.modelo.Contacto</class>
-		<class>com.cursogetafe.agenda.modelo.Domicilio</class>
+		<class>es.cursosanblas.examen.Alumnos</class>
+		<class>es.cursosanblas.examen.Asignaturas</class>
+		<class>es.cursosanblas.examen.Persona</class>
+		<class>es.cursosanblas.examen.Profesor</class>
+		
 
         <properties>
             <!-- JDBC -->
             <property name="jakarta.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
-            <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://localhost:3366/11_agenda"/>
+            <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://localhost:3366/91_ex_universidad_test"/>
             <property name="jakarta.persistence.jdbc.user" value="root"/>
             <property name="jakarta.persistence.jdbc.password" value="root"/>
 

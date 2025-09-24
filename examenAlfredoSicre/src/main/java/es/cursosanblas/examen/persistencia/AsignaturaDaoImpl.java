@@ -47,7 +47,7 @@ public class AsignaturaDaoImpl implements AsignaturaDao {
 			em.getTransaction().begin();
 			em.merge(a);
 			em.getTransaction().commit();
-		} catch (Exception e) {
+ 		} catch (Exception e) {
 			e.printStackTrace();
 			em.getTransaction().rollback();
 		}
@@ -91,7 +91,7 @@ public class AsignaturaDaoImpl implements AsignaturaDao {
 	
 	
 	@Override
-	public Map<Integer, Asignatura> buscarTodas() {
+	public Map<Integer, Asignatura> buscarTodas() { //REVISAR TODO ESTE
 		em = emf.createEntityManager();
 		String jpql = "select a from asignaturas a";
 		

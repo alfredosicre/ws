@@ -8,15 +8,18 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Table;
 import jakarta.persistence.Id;
+import jakarta.persistence.Inheritance;
+import jakarta.persistence.InheritanceType;
 import jakarta.persistence.OneToMany;
 
 @Entity
 @Table(name = "personas")
-public class Persona implements Serializable {
-	
+@Inheritance(strategy = InheritanceType.JOINED)
+public class Persona implements Serializable, Comparable<Persona> {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY) 
+	
 	private int idPersona;
 	private String dni;
 	private String nombre;
@@ -129,6 +132,11 @@ public class Persona implements Serializable {
 		this.telefono = telefono;
 		this.direccion = direccion;
 		this.ciudad = ciudad;
+	}
+
+	@Override
+	public int compareTo(Persona o) {
+		return this.idPersona - o.idPersona;
 	}
 
 	

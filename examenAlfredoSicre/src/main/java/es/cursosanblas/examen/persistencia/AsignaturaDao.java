@@ -13,7 +13,7 @@ public interface AsignaturaDao {
 	 * @param asignatura a insertar
 	 * @return true si la inserción fue correcta, false en caso contrario
 	 */
-	public void insertar(Asignatura asignatura); // hecho
+	public void insertar(Asignatura asignatura); // hecho ESTO ESTA MAL
 	
 	/**
 	 * Actualiza una asignatura

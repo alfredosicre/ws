@@ -11,7 +11,7 @@ public class Config {
 	
 	public static EntityManagerFactory getEmf(){
 		if(emf == null) {
-			emf = Persistence.createEntityManagerFactory("cursoJPA");
+			emf = Persistence.createEntityManagerFactory("91_ex_universidad_test");
 		}
 		return emf;
 	}

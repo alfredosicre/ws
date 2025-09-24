@@ -2,6 +2,8 @@ package es.cursosanblas.examen.modelo;
 
 import java.io.Serializable;
 import java.util.Set;
+
+import jakarta.persistence.Column;
 import jakarta.persistence.Embeddable;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -13,31 +15,23 @@ import jakarta.persistence.Table;
 @Embeddable
 @Entity
 @Table(name = "profesores")
-public class Profesor implements Serializable {
+public class Profesor extends Persona {
 
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private int id_persona;
 	private String nro_seg_social;
 	
-	@OneToMany(mappedBy = "profesor")
+	@Column(name = "nro_seg_social")
 	private Set<Asignatura>  asignatura;
 	
 	public Profesor() {
 	}
 	
-	public Profesor(int id_persona, String nro_seg_social) {
-		super();
-		this.id_persona = id_persona;
-		this.nro_seg_social = nro_seg_social;
+	public Set<Asignatura> getAsignatura() {
+		return asignatura;
 	}
 
-	public int getId_persona() {
-		return id_persona;
-	}
-
-	public void setId_persona(int id_persona) {
-		this.id_persona = id_persona;
+	public Profesor(int idPersona, String dni, String nombre, String apellido1, String apellido2, String telefono,
+			String direccion, String ciudad) {
+		super(idPersona, dni, nombre, apellido1, apellido2, telefono, direccion, ciudad);
 	}
 
 	public String getNro_seg_social() {
@@ -47,5 +41,7 @@ public class Profesor implements Serializable {
 	public void setNro_seg_social(String nro_seg_social) {
 		this.nro_seg_social = nro_seg_social;
 	}
+
+	
 	
 }
