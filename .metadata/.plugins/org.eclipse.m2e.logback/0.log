@@ -6649,3 +6649,55 @@ org.eclipse.core.runtime.CoreException: Launch configuration TestMapeo reference
 2025-09-24 09:06:36,437 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2025-09-24 09:46:21,942 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
 2025-09-24 09:46:21,951 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\test\resources to target\test-classes
+2025-09-24 10:14:59,793 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-09-24 10:14:59,797 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-09-24 10:54:45,831 [Worker-57: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: es.cursosanblas.examen:j18_resolucion_examen:1 @ C:\Users\Mananas\Desktop\ws\j18_resolucion_examen\pom.xml.
+2025-09-24 10:54:46,076 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-24 10:54:46,083 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mananas\Desktop\ws\j18_resolucion_examen\src\test\resources
+2025-09-24 10:54:46,135 [Worker-55: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: es.cursosanblas.examen:j18_resolucion_examen:1 @ C:\Users\Mananas\Desktop\ws\j18_resolucion_examen\pom.xml.
+2025-09-24 10:54:46,541 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-24 10:54:46,548 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mananas\Desktop\ws\j18_resolucion_examen\src\test\resources
+2025-09-24 10:55:01,501 [Worker-59: Cleaning all projects] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for w01_pruebaweb
+2025-09-24 10:55:01,514 [Worker-59: Cleaning all projects] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for w02_otraprueba
+2025-09-24 10:55:01,532 [Worker-59: Cleaning all projects] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for w03_tienda
+2025-09-24 10:55:01,803 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-09-24 10:55:01,808 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\test\resources to target\test-classes
+2025-09-24 10:55:02,391 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mananas\Desktop\ws\j13_jpa\src\main\resources
+2025-09-24 10:55:02,551 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Nothing to compile - all classes are up to date.
+2025-09-24 10:55:02,554 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mananas\Desktop\ws\j13_jpa\src\test\resources
+2025-09-24 10:55:02,575 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Nothing to compile - all classes are up to date.
+2025-09-24 10:55:02,743 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mananas\Desktop\ws\j14_ejerciciojpa\src\main\resources
+2025-09-24 10:55:02,915 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Nothing to compile - all classes are up to date.
+2025-09-24 10:55:02,917 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mananas\Desktop\ws\j14_ejerciciojpa\src\test\resources
+2025-09-24 10:55:02,936 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Nothing to compile - all classes are up to date.
+2025-09-24 10:55:03,351 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-24 10:55:03,537 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Nothing to compile - all classes are up to date.
+2025-09-24 10:55:03,540 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\test\resources to target\test-classes
+2025-09-24 10:55:03,566 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Nothing to compile - all classes are up to date.
+2025-09-24 10:55:03,847 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-24 10:55:03,851 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mananas\Desktop\ws\j18_resolucion_examen\src\test\resources
+2025-09-24 10:55:03,994 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources from src\main\resources to target\classes
+2025-09-24 10:55:04,004 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mananas\Desktop\ws\s01_dixml\src\test\resources
+2025-09-24 10:55:04,167 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-09-24 10:55:04,182 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mananas\Desktop\ws\s02_dianotaciones\src\test\resources
+2025-09-24 10:55:04,565 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-24 10:55:04,571 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mananas\Desktop\ws\s03_dijavaconfig\src\test\resources
+2025-09-24 10:55:04,818 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-09-24 10:55:04,826 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\test\resources to target\test-classes
+2025-09-24 10:55:05,145 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mananas\Desktop\ws\w01_pruebaweb\src\main\resources
+2025-09-24 10:55:05,148 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mananas\Desktop\ws\w01_pruebaweb\src\test\resources
+2025-09-24 10:55:05,149 [Worker-60: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of w01_pruebaweb
+2025-09-24 10:55:05,149 [Worker-60: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for w01_pruebaweb
+2025-09-24 10:55:05,923 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-24 10:55:05,926 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-09-24 10:55:05,926 [Worker-55: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of w02_otraprueba
+2025-09-24 10:55:05,927 [Worker-55: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for w02_otraprueba
+2025-09-24 10:55:06,112 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-24 10:55:06,118 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-09-24 10:55:06,119 [Worker-55: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of w03_tienda
+2025-09-24 10:55:06,119 [Worker-55: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for w03_tienda
+2025-09-24 10:55:37,903 [Worker-60: Cleaning selected projects] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for w01_pruebaweb
+2025-09-24 10:55:38,029 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mananas\Desktop\ws\w01_pruebaweb\src\main\resources
+2025-09-24 10:55:38,031 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mananas\Desktop\ws\w01_pruebaweb\src\test\resources
+2025-09-24 10:55:38,031 [Worker-53: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of w01_pruebaweb
+2025-09-24 10:55:38,031 [Worker-53: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for w01_pruebaweb
