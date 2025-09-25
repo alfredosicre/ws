@@ -26,12 +26,12 @@ public class Asignatura implements Serializable, Comparable<Asignatura> {
 	private int creditos;
 	private String facultad;
 	
-	@ManyToMany(mappedBy = "asignaturas")
-	private Set<Alumno> alumnos;
+	@ManyToMany(mappedBy = "asignaturas")  // muchos a muchos
+	private Set<Alumno> alumnos; // muchos alumnos
 	
-	@ManyToOne
+	@ManyToOne // muchos a uno
 	@JoinColumn(name = "fk_profesor")
-	private Profesor profesor;
+	private Profesor profesor; // un profesor
 
 	public Asignatura() {
 	}

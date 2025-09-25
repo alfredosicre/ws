@@ -6701,3 +6701,6 @@ org.eclipse.core.runtime.CoreException: Launch configuration TestMapeo reference
 2025-09-24 10:55:38,031 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mananas\Desktop\ws\w01_pruebaweb\src\test\resources
 2025-09-24 10:55:38,031 [Worker-53: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of w01_pruebaweb
 2025-09-24 10:55:38,031 [Worker-53: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for w01_pruebaweb
+2025-09-25 12:11:54,526 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-09-25 12:30:30,446 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-25 12:30:30,457 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mananas\Desktop\ws\j18_resolucion_examen\src\test\resources
